@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700&amp;subset=chinese-traditional" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" rev="stylesheet" href="css/font-awesome.css" type="text/css" media="all" />
+    <link rel="stylesheet" rev="stylesheet" href="css/NavTop.css" type="text/css" media="all" />
+    <link rel="stylesheet" rev="stylesheet" href="css/index_05.css" type="text/css" media="all" />
+    <link rel="stylesheet" rev="stylesheet" href="css/upgrade.css" type="text/css" media="all" />
+    <script src="js/jquery.3.3.1.min.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+
+    <div id="body_content">
+
+            <div id="Related">
+                    <span class="fa fa-home" aria-hidden="true"></span>
+                    <a href="index_01.html"><span>首頁</span></a>
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span>保單變更</span>
+                </div>
+
+        <div id="body_first">
+            <div class="body_titles">
+                <p>保單變更申請</p>
+                <p>須為要被保人同一人的保單才可申請保單變更</p>
+            </div>
+            <div id="container_first">
+                
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_01_profile.png" alt="">
+                        </span>
+                        <div>
+                            <span>通訊資料變更</span>
+                            <span>被保險人地址</span>
+                            <span>被保險人電話</span>
+                            <span>被保險人郵箱</span>
+                        </div>
+                </div>
+
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_02_car.png" alt="">
+                        </span>
+                        <div>
+                            <span>車籍資料變更</span>
+                            <span>車牌號碼</span>
+                            <span>車輛引擎號碼</span>
+                            <span>車輛發照年月</span>
+                        </div>
+                </div>
+
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_03_owner.png" alt="">
+                        </span>
+                        <div>
+                            <span>車主資料變更</span>
+                            <span>車主姓名(不含過戶)</span>
+                            <span>車主婚姻</span>                            
+                        </div>
+                </div>
+
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_04_license.png" alt="">
+                        </span>
+                        <div>
+                            <span>補發強制險</span>
+                            <span>墊子/紙本強制證申請</span>                                                        
+                        </div>
+                </div>
+
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_05_house.png" alt="">
+                        </span>
+                        <div>
+                            <span>標的物變更</span>
+                            <span>標的物地址</span>
+                            <span>標的物門牌整編</span>
+                            <span>增加抵押權人</span>
+                        </div>
+                </div>
+
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_06_plus.png" alt="">
+                        </span>
+                        <div>
+                            <span>加保險種/提高保額</span>
+                            <span>車險保障變更</span>                                                        
+                        </div>
+                </div>
+
+                <div class="Sections1">
+                        <span>
+                            <img src="img/chang_07_airplane.png" alt="">
+                        </span>
+                        <div>
+                            <span>旅遊險保期變更</span>
+                            <span>保期變更</span>                                                        
+                        </div>
+                </div>
+
+                <!---->
+                <a href="javascript:;">
+                    <div id="contact_service">
+                        <img src="img/ic_service.png" alt="">
+                        <span>聯絡客服</span>
+                    </div>
+                </a>
+                
+                
+            </div>
+        </div>
+
+        <div id="body_second">
+                <div class="body_titles">
+                    <p>保單變更進度與紀錄</p>
+                    <!--  <p>保單變更進度與紀錄 <span>進階搜尋</span></p> -->
+                    <p></p>
+                </div>
+                <div id="container_second">
+                    <div class="No_data">
+                        <p>
+                            <img src="img/ic_list.png" alt="">
+                            <span>目前無理賠案件</span>
+                        </p>
+                    </div>
+                    <div class="Member_upgrade_new">
+                                <img src="img/ic_upgrade.png" alt="">
+                                <div>
+                                    <span>升級已使用更多服務</span>
+                                    <span>現在升級認證會員，將可使用更多專屬服務，等你來體驗!</span>
+                                    <span>認證好處?注意事項</span>
+                                </div>
+                                <span class="ugbtn btnBox orange_btn">會員升級</span>
+                    </div>
+                    <!-- For PC-->
+                    <div class="table_out opens_stg0 has_3btn">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">車牌號碼</th>
+                                    <th class="text-left">申請截止</th>
+                                    <th class="text-left">車主</th>
+                                    <th class="text-left">申請日</th>
+                                    <th class="text-left bor_ra"></th>             
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">加保險種/提高保額</td>
+                                    <td class="text-left">CPA-2235</td>
+                                    <td class="text-left FT_bolds">倒數2日</td>
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">109/02/18</td>                                    
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">
+                                            <span class="btnBox dark_btn btn_full">取消申請</span>
+                                            <span class="btnBox btn_half">繼續申請</span>
+                                            <span class="btn_third btnBox btn_half">查看</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/Ins_car_01_car_w.png" alt="">
+                            車險
+                        </span>
+                        <!-- <div class="Rtables">
+                            <div></div>
+                            <div class="btn_double">
+                                <span class="btnBox dark_btn">取消申請</span>
+                                <span class="btnBox">繼續申請</span>
+                                <span class="btn_third btnBox">查看</span>
+                            </div>
+                        </div> -->
+                        <span class="finished">已結案</span>
+                    </div>
+
+                    <div class="table_out opens_stg0 Max_2btn">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">車牌號碼</th>
+                                    <th class="text-left">申請截止</th>
+                                    <th class="text-left">車主</th>
+                                    <th class="text-left">申請日</th>
+                                    <th class="text-left bor_ra"></th>                                
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">加保險種/提高保額</td>
+                                    <td class="text-left">CPA-2235</td>
+                                    <td class="text-left FT_bolds">倒數2日</td>
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">109/02/18</td>
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">                                            
+                                            <span class="btnBox dark_btn btn_half">取消申請</span>
+                                            <span class="btnBox btn_half">繼續申請</span>                                            
+                                        </div>
+                                    </td>                               
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/Ins_car_01_car_w.png" alt="">
+                            車險
+                        </span>
+                        <span class="finished">已結案</span>
+                    </div>
+
+                    <div class="table_out opens_stg1 Max_2btn">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">車牌號碼</th>
+                                    <th class="text-left">申請截止</th>
+                                    <th class="text-left">車主</th>
+                                    <th class="text-left">申請日</th>  
+                                    <th class="text-left bor_ra"></th>                                  
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">加保險種/提高保額</td>
+                                    <td class="text-left">CPA-2235</td>
+                                    <td class="text-left FT_bolds">倒數2日</td>
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">109/02/18</td> 
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">                                            
+                                            <span class="btn_third btnBox btn_full">查看</span>
+                                        </div>
+                                    </td>                                   
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/Ins_car_01_car_w.png" alt="">
+                            車險
+                        </span>
+
+                        <span class="finished opens">已結案</span>
+                    </div>
+                   
+                    <div class="table_out opens_stg0 has_3btn item_4">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">旅遊國家</th>
+                                    <th class="text-left">申請人</th>
+                                    <th class="text-left">申請日</th>   
+                                    <th class="text-left bor_ra"></th>                                 
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">旅遊日期變更</td>
+                                    <td class="text-left">歐洲</td>
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">108/11/05</td>  
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">
+                                            <span class="btnBox dark_btn btn_full">取消申請</span>
+                                            <span class="btnBox btn_half">繼續申請</span>
+                                            <span class="btn_third btnBox btn_half">查看</span>
+                                        </div>
+                                    </td>                          
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/Ins_trip_airplane_w.png" alt="">
+                            旅遊險</span>
+                        <span class="finished">已結案</span>
+                    </div>
+
+                    <div class="table_out opens_stg0 Max_2btn item_4">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">旅遊國家</th>
+                                    <th class="text-left">申請人</th>
+                                    <th class="text-left">申請日</th>    
+                                    <th class="text-left bor_ra"></th>                                    
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left width_small">旅遊日期變更</td>
+                                    <td class="text-left width_small">歐洲</td>
+                                    <td class="text-left width_small">工藤新七</td>
+                                    <td class="text-left width_big word_left">通訊地址縣市鄉鎮市區/通訊地址地址全名/手機號碼/墊子信箱/電話分機/通訊地址郵遞區號</td>
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">
+                                            <span class="btnBox dark_btn btn_half">取消申請</span>
+                                            <span class="btnBox btn_half">繼續申請</span>                                            
+                                        </div>
+                                    </td>                                 
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/Ins_trip_airplane_w.png" alt="">
+                            旅遊險</span>
+                        <span class="finished">已結案</span>
+                    </div>
+
+                    <div class="table_out opens_stg1 Max_2btn item_4">
+                            <table class="table-fill">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">申請類型</th>
+                                        <th class="text-left">旅遊國家</th>
+                                        <th class="text-left">申請人</th>
+                                        <th class="text-left">申請日</th>     
+                                        <th class="text-left bor_ra"></th>                                   
+                                    </tr>
+                                </thead>
+                                <tbody class="table-hover">
+                                    <tr>
+                                        <td class="text-left width_small">旅遊日期變更</td>
+                                        <td class="text-left width_small">歐洲</td>
+                                        <td class="text-left width_small">工藤新七</td>
+                                        <td class="text-left width_big word_left">起日108/11/05 11:00<br>108/04/26 11:00<br>迄日 108/05/05 11:00<br>108/05/06 11:00</td>                                    
+                                        <td class="text-left btn_area">
+                                            <div class="btn_double">                                            
+                                                <span class="btn_third btnBox btn_full">查看</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>                            
+                            </table>
+                            <span>
+                                <img src="img/Ins_trip_airplane_w.png" alt="">
+                                旅遊險</span>
+                            <span class="finished opens">已結案</span>
+                    </div>
+
+                    <div class="table_out opens_stg0 has_3btn item_3">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">申請人</th>
+                                    <th class="text-left">申請日</th>   
+                                    <th class="text-left bor_ra"></th>                             
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">個人資料變更</td>                                    
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">109/02/18</td>   
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">
+                                            <span class="btnBox dark_btn btn_full">取消申請</span>
+                                            <span class="btnBox btn_half">繼續申請</span>
+                                            <span class="btn_third btnBox btn_half">查看</span>
+                                        </div>
+                                    </td>                     
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/fixed_02_list.png" alt="">
+                            有保單</span>
+                        <span class="finished">已結案</span>
+                    </div>
+
+                    <div class="table_out opens_stg0 Max_2btn item_3">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">申請人</th>
+                                    <th class="text-left">申請日</th>  
+                                    <th class="text-left bor_ra"></th>                              
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">個人資料變更</td>                                    
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">109/02/18</td>     
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">
+                                            <span class="btnBox dark_btn btn_half">取消申請</span>
+                                            <span class="btnBox btn_half">繼續申請</span>                                         
+                                        </div>
+                                    </td>                   
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/fixed_02_list.png" alt="">
+                            有保單</span>
+                        <span class="finished">已結案</span>
+                    </div>              
+                    
+        
+
+                    <div class="table_out opens_stg1 Max_2btn item_3">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">申請人</th>
+                                    <th class="text-left">申請日</th>  
+                                    <th class="text-left bor_ra"></th>                              
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left">個人資料變更</td>                                    
+                                    <td class="text-left">工藤新七</td>
+                                    <td class="text-left">109/02/18</td>                        
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">                                        
+                                            <span class="btn_third btnBox btn_full">查看</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/fixed_02_list.png" alt="">
+                            有保單</span>
+                        <span class="finished opens">已結案</span>
+                    </div> 
+
+
+                    <div class="table_out opens_stg1 Max_2btn item_4">
+                        <table class="table-fill">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">申請類型</th>
+                                    <th class="text-left">旅遊國家</th>
+                                    <th class="text-left">申請人</th>
+                                    <th class="text-left">申請日</th>     
+                                    <th class="text-left bor_ra"></th>                                   
+                                </tr>
+                            </thead>
+                            <tbody class="table-hover">
+                                <tr>
+                                    <td class="text-left width_small">旅遊日期/變更變更</td>
+                                    <td class="text-left width_small">歐洲</td>
+                                    <td class="text-left width_small">工藤新七</td>
+                                    <td class="text-left width_big word_left">起日108/11/05 11:00<br>←108/04/26 11:00<br>迄日 108/05/05 11:00<br>←108/05/06 11:00</td>                                    
+                                    <td class="text-left btn_area">
+                                        <div class="btn_double">                                            
+                                            <span class="btn_third btnBox btn_full">查看</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>                            
+                        </table>
+                        <span>
+                            <img src="img/Ins_trip_airplane_w.png" alt="">
+                            旅遊險</span>
+                        <span class="finished opens">已結案</span>
+                </div>
+                   
+                    <!-- For PC-->
+
+                    <!-- For Mobile-->
+                    <div class="table_mobiles opens_stg1">
+                        <table>                           
+                                <tr>
+                                    <td>
+                                        <img src="img/Ins_car_01_car_w.png" alt="">
+                                        <span>車險</span>
+                                    </td>
+                                    <td>
+                                        <div>CPA-2235 
+                                            <span class="Over opens">已結案</span>
+                                            <span class="fa fa-angle-down showdata" aria-hidden="true"></span>
+                                        </div>
+                                        <p>
+                                            <span class="Wold_flex">                                             
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>類</span>
+                                                <span>型</span>
+                                            </span>
+                                            加保險種/提高保險
+                                        </p>
+                                        <p><span class="Wold_flex">
+                                            <span>申</span>
+                                            <span>請</span>
+                                            <span>人</span></span>工藤新七</p>
+                                        <p><span class="Wold_flex">
+                                            <span>申</span>
+                                            <span>請</span>
+                                            <span>日</span></span>109/2/18</p>
+                                        <p><span class="Wold_flex">
+                                            <span>保</span>
+                                            <span>期</span>
+                                            </span>108/2/18~108/03/05</p>                                                                         
+                                        <p class="infos_btn ontops">
+                                            
+                                            <span class="Wold_flex dark_btn">取消申請</span>
+                                            <span class="Wold_flex">繼續申請</span>
+                                            <span class="Wold_flex">查看</span>
+                                        </p>                                        
+                                    </td>
+                                </tr>
+                           
+                        </table>
+                    </div>
+
+                    <div class="table_mobiles opens_stg1 Max_2btn">
+                        <table>                           
+                                <tr>
+                                    <td>
+                                        <img src="img/Ins_car_01_car_w.png" alt="">
+                                        <span>車險</span>
+                                    </td>
+                                    <td>
+                                        <div>CPA-2235 
+                                            <span class="Over opens">已結案</span>
+                                            <span class="fa fa-angle-down showdata" aria-hidden="true"></span>
+                                        </div>
+                                        <p>
+                                            <span class="Wold_flex">                                             
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>類</span>
+                                                <span>型</span>
+                                            </span>加保險種/提高保險</p>
+                                        <p><span class="Wold_flex">
+                                            <span>申</span>
+                                            <span>請</span>
+                                            <span>人</span></span>工藤新七</p>
+                                        <p><span class="Wold_flex">
+                                            <span>申</span>
+                                            <span>請</span>
+                                            <span>日</span></span>109/2/18</p>
+                                        <p><span class="Wold_flex">
+                                            <span>保</span>
+                                            <span>期</span>
+                                            </span>108/2/18~108/03/05</p>                                                                         
+                                        <p class="infos_btn ontops">
+                                            
+                                            <span class="Wold_flex dark_btn">取消申請</span>
+                                            <span class="Wold_flex">繼續申請</span>
+                                            <span class="Wold_flex">查看</span>
+                                        </p>                                        
+                                    </td>
+                                </tr>
+                           
+                        </table>
+                    </div>
+
+                    <div class="table_mobiles opens_stg1">
+                            <table>                           
+                                    <tr>
+                                        <td>
+                                            <img src="img/Ins_car_01_car_w.png" alt="">
+                                            <span>車險</span>
+                                        </td>
+                                        <td>
+                                            <div>CPA-2235 
+                                                <span class="Over opens">已結案</span>
+                                                <span class="fa fa-angle-down showdata" aria-hidden="true"></span>
+                                            </div>
+                                            <p>
+                                                <span class="Wold_flex">                                             
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>類</span>
+                                                    <span>型</span>
+                                                </span>加保險種/提高保險</p>
+                                            <p><span class="Wold_flex">
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>人</span></span>工藤新七</p>
+                                            <p class="bold_word"><span class="Wold_flex">
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>截</span>
+                                                <span>止</span></span>倒數2日</p>                                                
+                                            <p><span class="Wold_flex">
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>日</span></span>109/2/18</p>
+                                            <p><span class="Wold_flex">
+                                                <span>保</span>
+                                                <span>期</span>
+                                                </span>108/2/18~108/03/05</p>                                                                         
+                                            <p class="infos_btn ontops">
+                                                
+                                                <span class="Wold_flex dark_btn">取消申請</span>
+                                                <span class="Wold_flex">繼續申請</span>
+                                                <span class="Wold_flex">查看</span>
+                                            </p>                                        
+                                        </td>
+                                    </tr>
+                               
+                            </table>
+                    </div>
+
+                    <div class="table_mobiles opens_stg0">
+                            <table>                           
+                                    <tr>
+                                        <td><img src="img/Ins_trip_airplane_w.png" alt=""><span>旅遊險</span></td>
+                                        <td>
+                                            <div>歐洲 
+                                                <span class="Over">已結案</span>
+                                                <span class="fa fa-angle-down showdata" aria-hidden="true"></span>
+                                            </div>
+                                            <p><span class="Wold_flex">                                             
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>類</span>
+                                                    <span>型</span>
+                                                </span>旅遊日期變更</p>
+                                            <p><span class="Wold_flex">
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>人</span></span>工藤新七</p>
+                                            <p class="bold_word"><span class="Wold_flex">
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>截</span>
+                                                    <span>止</span></span>倒數2日</p>
+                                            <p><span class="Wold_flex">
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>日</span></span>109/2/18</p>
+                                            <p><span class="Wold_flex">
+                                                    <span>保</span>
+                                                    <span>期</span>
+                                                    </span>108/2/18~108/03/05</p>                                                                         
+                                            <p class="infos_btn ontops">
+                                                
+                                                <span class="Wold_flex dark_btn">取消申請</span>
+                                                <span class="Wold_flex">繼續申請</span>
+                                                <span class="Wold_flex">查看</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                               
+                            </table>
+                    </div>
+
+                    <div class="table_mobiles opens_stg0">
+                            <table>                           
+                                    <tr>
+                                        <td><img src="img/Ins_trip_airplane_w.png" alt=""><span>旅遊險</span></td>
+                                        <td>
+                                            <div>歐洲 
+                                                <span class="Over">已結案</span>
+                                                <span class="fa fa-angle-down showdata" aria-hidden="true"></span>
+                                            </div>
+                                            <p><span class="Wold_flex">                                             
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>類</span>
+                                                    <span>型</span>
+                                                </span>旅遊日期變更</p>
+                                            <p><span class="Wold_flex">
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>人</span></span>工藤新七</p>
+                                            <p><span class="Wold_flex">
+                                                    <span>申</span>
+                                                    <span>請</span>
+                                                    <span>日</span></span>109/2/18</p>
+                                            <p><span class="Wold_flex">
+                                                    <span>保</span>
+                                                    <span>期</span>
+                                                    </span>108/2/18~108/03/05</p>                                                                         
+                                            <p class="infos_btn ontops">
+                                                
+                                                <span class="Wold_flex dark_btn">取消申請</span>
+                                                <span class="Wold_flex">繼續申請</span>
+                                                <span class="Wold_flex">查看</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                               
+                            </table>
+                    </div>
+
+                    <div class="table_mobiles opens_stg0 Max_2btn">
+                        <table>                           
+                                <tr>
+                                    <td><img src="img/Ins_trip_airplane_w.png" alt=""><span>旅遊險</span></td>
+                                    <td>
+                                        <div>歐洲 
+                                            <span class="Over">已結案</span>
+                                            <span class="fa fa-angle-down showdata" aria-hidden="true"></span>
+                                        </div>
+                                        <p><span class="Wold_flex">                                             
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>類</span>
+                                                <span>型</span>
+                                            </span>旅遊日期變更</p>
+                                        <p><span class="Wold_flex">
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>人</span></span>工藤新七</p>
+                                        <p><span class="Wold_flex">
+                                                <span>申</span>
+                                                <span>請</span>
+                                                <span>日</span></span>109/2/18</p>
+                                        <p><span class="Wold_flex">
+                                                <span>保</span>
+                                                <span>期</span>
+                                                </span>108/2/18~108/03/05</p>                                                                         
+                                        <p class="infos_btn ontops">                                            
+                                            <span class="Wold_flex dark_btn">取消申請</span>
+                                            <span class="Wold_flex">繼續申請</span>        
+                                            <span class="Wold_flex">查看</span>                                    
+                                        </p>
+                                    </td>
+                                </tr>
+                           
+                        </table>
+                </div>
+                    <!-- For Mobile-->
+                </div>
+
+                <a href="javascript:;">
+                        <div id="BackTop">
+                            <img src="img/gotop.png" alt="">
+                        </div>
+                </a>
+        </div>
+
+    </div>        
+    <div class="popup_Alls pp_upgrade">
+            <div class="back_close"></div>
+            <div>
+                <span>
+                    <img src="img/ic_upgrade.png" alt="">
+                    <div>
+                        <span>升級已使用更多服務</span>
+                        <span>現在升級認證會員，將可使用更多專屬服務，等你來體驗!</span>
+                        <span>認證好處?注意事項</span>
+                    </div>
+                </span>
+                <a href="javascript:;"><span class="Close_popup btnBox">下次申請</span></a>
+                <a href="javascript:;"><span class="Upgrade_popup btnBox orange_btn">會員升級</span></a>
+            </div>
+        </div>
+
+    <div id="footer_mobile">
+        <div>
+            <span><img src="img/fixed_01_coin.png" alt=""></span>
+            <span>我要理賠</span>
+        </div>
+        <div>
+            <span><img src="img/fixed_02_list.png" alt=""></span>
+            <span>我的保單</span>
+        </div>
+        <div>
+            <span><img src="img/fixed_03_pencil.png" alt=""></span>
+            <span>保單變更</span>
+        </div>
+        <div>
+            <span><img src="img/fixed_04_search.png" alt=""></span>
+            <span>進度查詢</span>
+        </div>
+    </div>
+
+<script src="js/Main.js"></script>
+<script src="js/index_05.js"></script>
+</body>
+</html>
